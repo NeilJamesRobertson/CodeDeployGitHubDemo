@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Markit EDM Serialised XML © Markit Group Limited-->
+<CadisXml Hash="Ls4xbHZpYMLwYgpjRHs6n1+1MIDVn/4Rss0BM6TqM48KSeJdoinjvr9DFViMjhQ7">
+<TypeReference>
+	<Tr ID="1" Name="CADIS.Tasks.ImportExport.Package, CADIS.IEData" />
+	<Tr ID="2" Name="System.String, mscorlib" />
+	<Tr ID="3" Name="CADIS.Tasks.ImportExport.Package+PackageType, CADIS.IEData" />
+	<Tr ID="4" Name="CADIS.Tasks.ImportExport.PackageHeader, CADIS.IEData" />
+	<Tr ID="5" Name="System.DateTime, mscorlib" />
+	<Tr ID="6" Name="System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib" />
+	<Tr ID="7" Name="System.Collections.Generic.List`1[[CADIS.Tasks.ImportExport.PackageScript, CADIS.IEData]], mscorlib" />
+	<Tr ID="8" Name="System.Collections.Generic.List`1[[CADIS.Tasks.ImportExport.PackageGroupProcess, CADIS.IEData]], mscorlib" />
+	<Tr ID="9" Name="CADIS.Tasks.ImportExport.PackageGroupProcess, CADIS.IEData" />
+	<Tr ID="10" Name="CADIS.Tasks.ImportExport.PackageEntity+EntityType, CADIS.IEData" />
+	<Tr ID="11" Name="CADIS.Common.CADISComponents+ComponentKey, CADIS.Common" />
+	<Tr ID="12" Name="System.Collections.Generic.List`1[[CADIS.Tasks.ImportExport.PackageConsoleGroupDefinition, CADIS.IEData]], mscorlib" />
+	<Tr ID="13" Name="CADIS.Tasks.ImportExport.Package+DependencyTypes, CADIS.IEData" />
+	<Tr ID="14" Name="System.Boolean, mscorlib" />
+	<Tr ID="15" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Tasks.ImportExport.PackageConsoleGroupDefinition, CADIS.IEData]], mscorlib" />
+	<Tr ID="16" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Tasks.ImportExport.PackageDBObjectDefinition, CADIS.IEData]], mscorlib" />
+	<Tr ID="17" Name="System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib],[CADIS.Tasks.ImportExport.PackageDBObjectDefinition, CADIS.IEData]], mscorlib" />
+	<Tr ID="18" Name="CADIS.Tasks.ImportExport.PackageDBTableViewDefinition, CADIS.IEData" />
+	<Tr ID="19" Name="CADIS.SqlHelper.DBObjectDescriptor, CADIS.SqlHData" />
+	<Tr ID="20" Name="CADIS.Common.DatabaseObjectType, CADIS.Common" />
+	<Tr ID="21" Name="CADIS.Database.Schema.Table, CADIS.Database.Schema" />
+	<Tr ID="22" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.Column, CADIS.Database.Schema]], CADIS.Database.Schema]], mscorlib" />
+	<Tr ID="23" Name="System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib],[CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.Column, CADIS.Database.Schema]], CADIS.Database.Schema]], mscorlib" />
+	<Tr ID="24" Name="CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.Column, CADIS.Database.Schema]], CADIS.Database.Schema" />
+	<Tr ID="25" Name="CADIS.Database.Schema.Column, CADIS.Database.Schema" />
+	<Tr ID="26" Name="CADIS.Database.Schema.DataType, CADIS.Database.Schema" />
+	<Tr ID="27" Name="System.Int32, mscorlib" />
+	<Tr ID="28" Name="CADIS.Database.Schema.DefaultValue, CADIS.Database.Schema" />
+	<Tr ID="29" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.Index, CADIS.Database.Schema]], CADIS.Database.Schema]], mscorlib" />
+	<Tr ID="30" Name="System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib],[CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.Index, CADIS.Database.Schema]], CADIS.Database.Schema]], mscorlib" />
+	<Tr ID="31" Name="CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.Index, CADIS.Database.Schema]], CADIS.Database.Schema" />
+	<Tr ID="32" Name="CADIS.Database.Schema.Index, CADIS.Database.Schema" />
+	<Tr ID="33" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.ColumnName, CADIS.Database.Schema]], CADIS.Database.Schema]], mscorlib" />
+	<Tr ID="34" Name="System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib],[CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.ColumnName, CADIS.Database.Schema]], CADIS.Database.Schema]], mscorlib" />
+	<Tr ID="35" Name="CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.ColumnName, CADIS.Database.Schema]], CADIS.Database.Schema" />
+	<Tr ID="36" Name="CADIS.Database.Schema.ColumnName, CADIS.Database.Schema" />
+	<Tr ID="37" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.ForeignKey, CADIS.Database.Schema]], CADIS.Database.Schema]], mscorlib" />
+	<Tr ID="38" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.CheckConstraint, CADIS.Database.Schema]], CADIS.Database.Schema]], mscorlib" />
+	<Tr ID="39" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.Function, CADIS.Database.Schema]], CADIS.Database.Schema]], mscorlib" />
+	<Tr ID="40" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Database.Schema.GroupableItem`1[[CADIS.Database.Schema.View, CADIS.Database.Schema]], CADIS.Database.Schema]], mscorlib" />
+	<Tr ID="41" Name="System.Collections.Generic.List`1[[CADIS.SqlHelper.FieldDescriptor, CADIS.SqlHData]], mscorlib" />
+	<Tr ID="42" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Tasks.ImportExport.PackageDBParamDefinition, CADIS.IEData]], mscorlib" />
+	<Tr ID="43" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Tasks.ImportExport.PackageProcessDefinition, CADIS.IEData]], mscorlib" />
+	<Tr ID="44" Name="System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib],[CADIS.Tasks.ImportExport.PackageProcessDefinition, CADIS.IEData]], mscorlib" />
+	<Tr ID="45" Name="CADIS.Tasks.ImportExport.PackageProcessDefinition, CADIS.IEData" />
+	<Tr ID="46" Name="CADIS.Tasks.ImportExport.PackageProcessDescriptor, CADIS.IEData" />
+	<Tr ID="47" Name="System.Collections.Generic.List`1[[CADIS.Tasks.ImportExport.PackageDependency, CADIS.IEData]], mscorlib" />
+	<Tr ID="48" Name="CADIS.Tasks.ImportExport.PackageProcessDependency, CADIS.IEData" />
+	<Tr ID="49" Name="CADIS.Common.LinkDescriptor+LinkTypeID, CADIS.Common" />
+	<Tr ID="50" Name="CADIS.Base.ExportData, CADIS.Base" />
+	<Tr ID="51" Name="CADIS.Solution.CadisSolution, CADIS.Solution.Data" />
+	<Tr ID="52" Name="CADIS.FlowChart.Chart, CADIS.FlowChart" />
+	<Tr ID="53" Name="CADIS.FlowChart.Chart+CHART_STYLE, CADIS.FlowChart" />
+	<Tr ID="54" Name="System.Collections.Generic.List`1[[CADIS.FlowChart.ShapeBase, CADIS.FlowChart]], mscorlib" />
+	<Tr ID="55" Name="CADIS.FlowChart.Process, CADIS.FlowChart" />
+	<Tr ID="56" Name="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+	<Tr ID="57" Name="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+	<Tr ID="58" Name="System.Collections.Generic.List`1[[CADIS.FlowChart.Line, CADIS.FlowChart]], mscorlib" />
+	<Tr ID="59" Name="CADIS.Solution.SolutionItems, CADIS.Solution.Data" />
+	<Tr ID="60" Name="System.Collections.Generic.List`1[[CADIS.Solution.SolutionItemBase, CADIS.Solution.Data]], mscorlib" />
+	<Tr ID="61" Name="CADIS.Solution.SIProcess, CADIS.Solution.Data" />
+	<Tr ID="62" Name="CADIS.Process.ProcessSpecification, CADIS.Process" />
+	<Tr ID="63" Name="CADIS.Common.RuntimeParameters, CADIS.Common" />
+	<Tr ID="64" Name="System.Collections.Generic.List`1[[CADIS.Common.RuntimeParameter, CADIS.Common]], mscorlib" />
+	<Tr ID="65" Name="CADIS.Common.RunInputMode, CADIS.Common" />
+	<Tr ID="66" Name="CADIS.Solution.SolutionOptions, CADIS.Solution.Data" />
+	<Tr ID="67" Name="CADIS.Solution.SolutionOptions+ShowRunStatus, CADIS.Solution.Data" />
+	<Tr ID="68" Name="CADIS.Common.LockingSystem, CADIS.Common" />
+	<Tr ID="69" Name="CADIS.Tasks.ImportExport.PackageDBObjectDependency, CADIS.IEData" />
+	<Tr ID="70" Name="CADIS.Common.CadisDefault+DBObjectDirection, CADIS.Common" />
+	<Tr ID="71" Name="CADIS.DataPorter.DataPort, CADIS.DPData" />
+	<Tr ID="72" Name="CADIS.DataPorter.Inputs, CADIS.DPData" />
+	<Tr ID="73" Name="System.Collections.Generic.List`1[[CADIS.DataPorter.Input, CADIS.DPData]], mscorlib" />
+	<Tr ID="74" Name="CADIS.DataPorter.Input, CADIS.DPData" />
+	<Tr ID="75" Name="CADIS.Common.CadisDefault+ProcessType, CADIS.Common" />
+	<Tr ID="76" Name="CADIS.DataPorter.DLDATAConstants+InputPrecedence, CADIS.DPData" />
+	<Tr ID="77" Name="CADIS.Common.CadisDefault+DataType, CADIS.Common" />
+	<Tr ID="78" Name="CADIS.Common.CadisDefault+PreferredTransferSystemType, CADIS.Common" />
+	<Tr ID="79" Name="CADIS.DataPorter.Process.ConnectionStep, CADIS.DPProcess" />
+	<Tr ID="80" Name="CADIS.DataPorter.Process.ConnectionStep+ConnectionType, CADIS.DPProcess" />
+	<Tr ID="81" Name="CADIS.Process.RowSourceStep, CADIS.Process" />
+	<Tr ID="82" Name="CADIS.Common.TranslatableText, CADIS.Common" />
+	<Tr ID="83" Name="CADIS.Common.PhraseBook, CADIS.Common" />
+	<Tr ID="84" Name="System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CADIS.Common.Phrase, CADIS.Common]], mscorlib" />
+	<Tr ID="85" Name="CADIS.Process.VariablesStep, CADIS.Process" />
+	<Tr ID="86" Name="CADIS.Common.NameValues, CADIS.Common" />
+	<Tr ID="87" Name="System.Collections.Generic.List`1[[CADIS.Common.NameValue, CADIS.Common]], mscorlib" />
+	<Tr ID="88" Name="CADIS.Common.FileVariables, CADIS.Common" />
+	<Tr ID="89" Name="System.Collections.Generic.List`1[[CADIS.Common.FileVariable, CADIS.Common]], mscorlib" />
+	<Tr ID="90" Name="CADIS.Common.ChangeAwareNamedList`1[[CADIS.Common.CADISStringParserRules, CADIS.Common]], CADIS.Common" />
+	<Tr ID="91" Name="System.Collections.Generic.List`1[[CADIS.Common.CADISStringParserRules, CADIS.Common]], mscorlib" />
+	<Tr ID="92" Name="CADIS.InterProcess.Data.RBFunctionInfoList, CADIS.InterProcess.Data" />
+	<Tr ID="93" Name="System.Collections.Generic.List`1[[CADIS.InterProcess.Data.RBFunctionInfo, CADIS.InterProcess.Data]], mscorlib" />
+	<Tr ID="94" Name="CADIS.DataPorter.InputTargets, CADIS.DPData" />
+	<Tr ID="95" Name="System.Collections.Generic.List`1[[CADIS.DataPorter.InputTarget, CADIS.DPData]], mscorlib" />
+	<Tr ID="96" Name="CADIS.DataPorter.InputTarget, CADIS.DPData" />
+	<Tr ID="97" Name="CADIS.Process.TableViewerStep, CADIS.Process" />
+	<Tr ID="98" Name="CADIS.SqlHelper.TableDescriptor, CADIS.SqlHData" />
+	<Tr ID="99" Name="CADIS.Process.TableViewerStep+StepTargetType, CADIS.Process" />
+	<Tr ID="100" Name="CADIS.Process.ColumnMappingStep, CADIS.Process" />
+	<Tr ID="101" Name="CADIS.Common.NameValue, CADIS.Common" />
+	<Tr ID="102" Name="CADIS.DataPorter.Process.UpdateControlStep, CADIS.DPProcess" />
+	<Tr ID="103" Name="CADIS.DataPorter.Process.UpdateControlStep+UpdateType, CADIS.DPProcess" />
+	<Tr ID="104" Name="CADIS.Process.CADISLocal, CADIS.Process" />
+	<Tr ID="105" Name="CADIS.Common.CADISConnections, CADIS.Common" />
+	<Tr ID="106" Name="System.Collections.Generic.List`1[[CADIS.Common.CADISConnection, CADIS.Common]], mscorlib" />
+	<Tr ID="107" Name="CADIS.Common.CADISLocations, CADIS.Common" />
+	<Tr ID="108" Name="System.Collections.Generic.List`1[[CADIS.Common.CADISLocation, CADIS.Common]], mscorlib" />
+</TypeReference>
+<Content Tr="1">
+	<VersionNumber Tr="2">10.2.3.0</VersionNumber>
+	<Type Tr="3">Package</Type>
+	<Header Tr="4">
+		<Description Tr="2"></Description>
+		<CreatedDate Tr="5" Ir="8d26e84b3211bca">2015/06/06 15:29:23</CreatedDate>
+		<CreatedBy Tr="2">mdevhosting\neil.robertson</CreatedBy>
+		<Server Tr="2">edmdemo1.cy5krscokxcs.us-east-1.rds.amazonaws.com</Server>
+		<Database Tr="2">MARKIT_EDM</Database>
+		<Contents Tr="6">
+			<Item Tr="2">[DBObject] Table: "dbo"."T_PROCESS_MONITOR"</Item>
+			<Item Tr="2">[Process] DP: Update Process Monitor</Item>
+			<Item Tr="2">[Process] SLN: 1000 Jenkins Log</Item>
+		</Contents>
+	</Header>
+	<BeforeScripts Tr="7" />
+	<SelectedItems Tr="8">
+		<Item Tr="9">
+			<Type Tr="10">Process</Type>
+			<ProcessType Tr="11">Solution</ProcessType>
+			<Name Tr="2">1000 Jenkins Log</Name>
+			<GroupPath Tr="2">All Components\Solution</GroupPath>
+		</Item>
+	</SelectedItems>
+	<SelectedConsoleGroups Tr="12" />
+	<AfterScripts Tr="7" />
+	<DependencyFilter Tr="13">OutputDBObjects, InputDBObjects, AncestralProcesses, LinkedProcesses</DependencyFilter>
+	<OnlyCadisCreatedAncestors Tr="14">True</OnlyCadisCreatedAncestors>
+	<IncludeConsoleGroupPermissions Tr="14">True</IncludeConsoleGroupPermissions>
+	<IncludeAllConsoleGroups Tr="14">False</IncludeAllConsoleGroups>
+	<IncludeWorklowProcessWeakLinks Tr="14">True</IncludeWorklowProcessWeakLinks>
+	<DependencyOrder Tr="6">
+		<Item Tr="2">0|1|"dbo"."T_PROCESS_MONITOR"</Item>
+		<Item Tr="2">1|0|Update Process Monitor</Item>
+		<Item Tr="2">1|8|1000 Jenkins Log</Item>
+	</DependencyOrder>
+	<ItemsManuallyExcluded Tr="14">False</ItemsManuallyExcluded>
+	<ConsoleGroupDefinitions Tr="15" />
+	<DatabaseObjectDefinitions Tr="16">
+		<Item Tr="17">
+			<key Tr="2">0|1|"dbo"."T_PROCESS_MONITOR"</key>
+			<value Tr="18">
+				<Type Tr="10">DBObject</Type>
+				<Name Tr="2">"dbo"."T_PROCESS_MONITOR"</Name>
+				<Description />
+				<Object Tr="19">
+					<Name Tr="2">T_PROCESS_MONITOR</Name>
+					<Owner Tr="2">dbo</Owner>
+					<SystemObject Tr="14">False</SystemObject>
+					<Type Tr="20">Table</Type>
+					<QuoteString Tr="2">"</QuoteString>
+				</Object>
+				<Table Tr="21">
+					<Name Tr="2">T_PROCESS_MONITOR</Name>
+					<Schema Tr="2">dbo</Schema>
+					<Columns Tr="22">
+						<Item Tr="23">
+							<key Tr="2">SOURCE</key>
+							<value Tr="24">
+								<Name Tr="2">SOURCE</Name>
+								<Item Tr="25">
+									<Name Tr="2">SOURCE</Name>
+									<Type Tr="26">
+										<DataType Tr="2">varchar</DataType>
+										<Length Tr="2">30</Length>
+									</Type>
+									<Nullable Tr="14">False</Nullable>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">DESCRIPTION</key>
+							<value Tr="24">
+								<Name Tr="2">DESCRIPTION</Name>
+								<Item Tr="25">
+									<Name Tr="2">DESCRIPTION</Name>
+									<Type Tr="26">
+										<DataType Tr="2">varchar</DataType>
+										<Length Tr="2">50</Length>
+									</Type>
+									<Nullable Tr="14">False</Nullable>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">DIRECTION</key>
+							<value Tr="24">
+								<Name Tr="2">DIRECTION</Name>
+								<Item Tr="25">
+									<Name Tr="2">DIRECTION</Name>
+									<Type Tr="26">
+										<DataType Tr="2">varchar</DataType>
+										<Length Tr="2">3</Length>
+									</Type>
+									<Nullable Tr="14">False</Nullable>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">RUN_DATE</key>
+							<value Tr="24">
+								<Name Tr="2">RUN_DATE</Name>
+								<Item Tr="25">
+									<Name Tr="2">RUN_DATE</Name>
+									<Type Tr="26">
+										<DataType Tr="2">datetime</DataType>
+										<Length />
+									</Type>
+									<Nullable Tr="14">False</Nullable>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">ENTITY</key>
+							<value Tr="24">
+								<Name Tr="2">ENTITY</Name>
+								<Item Tr="25">
+									<Name Tr="2">ENTITY</Name>
+									<Type Tr="26">
+										<DataType Tr="2">varchar</DataType>
+										<Length Tr="2">50</Length>
+									</Type>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">SOURCE_DATE</key>
+							<value Tr="24">
+								<Name Tr="2">SOURCE_DATE</Name>
+								<Item Tr="25">
+									<Name Tr="2">SOURCE_DATE</Name>
+									<Type Tr="26">
+										<DataType Tr="2">datetime</DataType>
+										<Length />
+									</Type>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">ROW_COUNT</key>
+							<value Tr="24">
+								<Name Tr="2">ROW_COUNT</Name>
+								<Item Tr="25">
+									<Name Tr="2">ROW_COUNT</Name>
+									<Type Tr="26">
+										<DataType Tr="2">int</DataType>
+										<Length />
+									</Type>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">EXPECTED_ROW_COUNT</key>
+							<value Tr="24">
+								<Name Tr="2">EXPECTED_ROW_COUNT</Name>
+								<Item Tr="25">
+									<Name Tr="2">EXPECTED_ROW_COUNT</Name>
+									<Type Tr="26">
+										<DataType Tr="2">int</DataType>
+										<Length />
+									</Type>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">PREVIOUS_ROW_COUNT</key>
+							<value Tr="24">
+								<Name Tr="2">PREVIOUS_ROW_COUNT</Name>
+								<Item Tr="25">
+									<Name Tr="2">PREVIOUS_ROW_COUNT</Name>
+									<Type Tr="26">
+										<DataType Tr="2">int</DataType>
+										<Length />
+									</Type>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">TOLERANCE</key>
+							<value Tr="24">
+								<Name Tr="2">TOLERANCE</Name>
+								<Item Tr="25">
+									<Name Tr="2">TOLERANCE</Name>
+									<Type Tr="26">
+										<DataType Tr="2">int</DataType>
+										<Length />
+									</Type>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">VARIANCE</key>
+							<value Tr="24">
+								<Name Tr="2">VARIANCE</Name>
+								<Item Tr="25">
+									<Name Tr="2">VARIANCE</Name>
+									<Type Tr="26">
+										<DataType Tr="2">decimal</DataType>
+										<Length />
+										<Precision Tr="27">18</Precision>
+										<Scale Tr="27">2</Scale>
+									</Type>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">STATUS</key>
+							<value Tr="24">
+								<Name Tr="2">STATUS</Name>
+								<Item Tr="25">
+									<Name Tr="2">STATUS</Name>
+									<Type Tr="26">
+										<DataType Tr="2">varchar</DataType>
+										<Length Tr="2">30</Length>
+									</Type>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">PROCESSED</key>
+							<value Tr="24">
+								<Name Tr="2">PROCESSED</Name>
+								<Item Tr="25">
+									<Name Tr="2">PROCESSED</Name>
+									<Type Tr="26">
+										<DataType Tr="2">bit</DataType>
+										<Length />
+									</Type>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">CADIS_SYSTEM_INSERTED</key>
+							<value Tr="24">
+								<Name Tr="2">CADIS_SYSTEM_INSERTED</Name>
+								<Item Tr="25">
+									<Name Tr="2">CADIS_SYSTEM_INSERTED</Name>
+									<Type Tr="26">
+										<DataType Tr="2">datetime</DataType>
+										<Length />
+									</Type>
+									<Default Tr="28">
+										<DefaultName Tr="2">DF__T_PROCESS__CADIS__08211BE3</DefaultName>
+										<DefaultValue Tr="2">getdate()</DefaultValue>
+									</Default>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">CADIS_SYSTEM_UPDATED</key>
+							<value Tr="24">
+								<Name Tr="2">CADIS_SYSTEM_UPDATED</Name>
+								<Item Tr="25">
+									<Name Tr="2">CADIS_SYSTEM_UPDATED</Name>
+									<Type Tr="26">
+										<DataType Tr="2">datetime</DataType>
+										<Length />
+									</Type>
+									<Default Tr="28">
+										<DefaultName Tr="2">DF__T_PROCESS__CADIS__0915401C</DefaultName>
+										<DefaultValue Tr="2">getdate()</DefaultValue>
+									</Default>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">CADIS_SYSTEM_CHANGEDBY</key>
+							<value Tr="24">
+								<Name Tr="2">CADIS_SYSTEM_CHANGEDBY</Name>
+								<Item Tr="25">
+									<Name Tr="2">CADIS_SYSTEM_CHANGEDBY</Name>
+									<Type Tr="26">
+										<DataType Tr="2">nvarchar</DataType>
+										<Length Tr="2">50</Length>
+									</Type>
+									<Default Tr="28">
+										<DefaultName Tr="2">DF__T_PROCESS__CADIS__0A096455</DefaultName>
+										<DefaultValue Tr="2">'UNKNOWN'</DefaultValue>
+									</Default>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+						<Item Tr="23">
+							<key Tr="2">CADIS_SYSTEM_PRIORITY</key>
+							<value Tr="24">
+								<Name Tr="2">CADIS_SYSTEM_PRIORITY</Name>
+								<Item Tr="25">
+									<Name Tr="2">CADIS_SYSTEM_PRIORITY</Name>
+									<Type Tr="26">
+										<DataType Tr="2">int</DataType>
+										<Length />
+									</Type>
+									<Default Tr="28">
+										<DefaultName Tr="2">DF__T_PROCESS__CADIS__0AFD888E</DefaultName>
+										<DefaultValue Tr="2">(1)</DefaultValue>
+									</Default>
+									<ComputedExpression />
+								</Item>
+							</value>
+						</Item>
+					</Columns>
+					<Indices Tr="29">
+						<Item Tr="30">
+							<key Tr="2">PK__T_PROCES__4CAE08F3CF582A83</key>
+							<value Tr="31">
+								<Name Tr="2">PK__T_PROCES__4CAE08F3CF582A83</Name>
+								<Item Tr="32">
+									<Name Tr="2">PK__T_PROCES__4CAE08F3CF582A83</Name>
+									<Columns Tr="33">
+										<Item Tr="34">
+											<key Tr="2">SOURCE</key>
+											<value Tr="35">
+												<Name Tr="2">SOURCE</Name>
+												<Item Tr="36">
+													<Name Tr="2">SOURCE</Name>
+												</Item>
+											</value>
+										</Item>
+										<Item Tr="34">
+											<key Tr="2">DESCRIPTION</key>
+											<value Tr="35">
+												<Name Tr="2">DESCRIPTION</Name>
+												<Item Tr="36">
+													<Name Tr="2">DESCRIPTION</Name>
+												</Item>
+											</value>
+										</Item>
+										<Item Tr="34">
+											<key Tr="2">DIRECTION</key>
+											<value Tr="35">
+												<Name Tr="2">DIRECTION</Name>
+												<Item Tr="36">
+													<Name Tr="2">DIRECTION</Name>
+												</Item>
+											</value>
+										</Item>
+										<Item Tr="34">
+											<key Tr="2">RUN_DATE</key>
+											<value Tr="35">
+												<Name Tr="2">RUN_DATE</Name>
+												<Item Tr="36">
+													<Name Tr="2">RUN_DATE</Name>
+												</Item>
+											</value>
+										</Item>
+									</Columns>
+									<IsPrimary Tr="14">True</IsPrimary>
+									<IsClustered Tr="14">True</IsClustered>
+								</Item>
+							</value>
+						</Item>
+					</Indices>
+					<ForeignKeys Tr="37" />
+					<CheckConstraints Tr="38" />
+					<Functions Tr="39" />
+					<Views Tr="40" />
+				</Table>
+				<Fields Tr="41" />
+			</value>
+		</Item>
+	</DatabaseObjectDefinitions>
+	<DatabaseParameterDefinitions Tr="42" />
+	<ProcessDefinitions Tr="43">
+		<Item Tr="44">
+			<key Tr="2">1|8|1000 Jenkins Log</key>
+			<value Tr="45">
+				<Type Tr="10">Process</Type>
+				<Process Tr="46">
+					<Type Tr="10">Process</Type>
+					<ProcessType Tr="11">Solution</ProcessType>
+					<Name Tr="2">1000 Jenkins Log</Name>
+				</Process>
+				<Dependencies Tr="47">
+					<Item Tr="48">
+						<Type Tr="10">Process</Type>
+						<Process Tr="46">
+							<Type Tr="10">Process</Type>
+							<ProcessType Tr="11">DataPorter</ProcessType>
+							<Name Tr="2">Update Process Monitor</Name>
+						</Process>
+						<DependencyReason Tr="49">SolutionItem</DependencyReason>
+					</Item>
+				</Dependencies>
+				<Definition Tr="50">
+					<ProcessType Tr="11">Solution</ProcessType>
+					<Solution Tr="51">
+						<Name Tr="2">1000 Jenkins Log</Name>
+						<Comment Tr="2"></Comment>
+						<mChart Tr="52">
+							<Style Tr="53">SolutionWorkflow</Style>
+							<Shapes Tr="54">
+								<Item Tr="55">
+									<Position Tr="56">
+										<x Tr="27">218</x>
+										<y Tr="27">112</y>
+									</Position>
+									<Size Tr="57">
+										<width Tr="27">120</width>
+										<height Tr="27">80</height>
+									</Size>
+									<Tag Tr="2">81402198-df78-4f20-a4e5-3fa5b35ce66e</Tag>
+									<UniqueId Tr="27">1</UniqueId>
+									<FontSize Tr="27">8</FontSize>
+								</Item>
+							</Shapes>
+							<Lines Tr="58" />
+							<LineWidth Tr="27">2</LineWidth>
+							<BorderWidth Tr="27">1</BorderWidth>
+						</mChart>
+						<FileName Tr="2"></FileName>
+						<Items Tr="59">
+							<list Tr="60">
+								<Item Tr="61">
+									<ID Tr="2">81402198-df78-4f20-a4e5-3fa5b35ce66e</ID>
+									<Description Tr="2"></Description>
+									<ProcessSpecification Tr="62">
+										<ProcessName Tr="2">Update Process Monitor</ProcessName>
+										<ProcessDescription />
+										<ProcessAutomaticRun Tr="14">False</ProcessAutomaticRun>
+										<ComponentType Tr="11">DataPorter</ComponentType>
+										<runtimeparameters Tr="63">
+											<list Tr="64" />
+										</runtimeparameters>
+										<RunInputMode Tr="65">All</RunInputMode>
+										<RunInputName Tr="2"></RunInputName>
+									</ProcessSpecification>
+									<SolutionLoopingCriteria />
+									<Transactional Tr="14">False</Transactional>
+								</Item>
+							</list>
+						</Items>
+						<LinkItems Tr="59">
+							<list Tr="60" />
+						</LinkItems>
+						<msoptions />
+						<msolutionoptions Tr="66">
+							<ShowReportIcons Tr="14">True</ShowReportIcons>
+							<ShowProcessIcons Tr="14">True</ShowProcessIcons>
+							<ShowInformationIcons Tr="14">True</ShowInformationIcons>
+							<ShowExecuteIcons Tr="14">True</ShowExecuteIcons>
+							<ShowGrid Tr="14">True</ShowGrid>
+							<ShowAnnotations Tr="14">False</ShowAnnotations>
+							<ItemRunStatus Tr="67">Solution</ItemRunStatus>
+						</msolutionoptions>
+						<lockingsystem Tr="68">InAdvance</lockingsystem>
+						<AllowRunConcurrently Tr="14">False</AllowRunConcurrently>
+					</Solution>
+				</Definition>
+			</value>
+		</Item>
+		<Item Tr="44">
+			<key Tr="2">1|0|Update Process Monitor</key>
+			<value Tr="45">
+				<Type Tr="10">Process</Type>
+				<Process Tr="46">
+					<Type Tr="10">Process</Type>
+					<ProcessType Tr="11">DataPorter</ProcessType>
+					<Name Tr="2">Update Process Monitor</Name>
+				</Process>
+				<Dependencies Tr="47">
+					<Item Tr="69">
+						<Type Tr="10">DBObject</Type>
+						<Object Tr="19">
+							<Name Tr="2">T_PROCESS_MONITOR</Name>
+							<Owner Tr="2">dbo</Owner>
+							<SystemObject Tr="14">False</SystemObject>
+							<Type Tr="20">Table</Type>
+							<QuoteString Tr="2">"</QuoteString>
+						</Object>
+						<Direction Tr="70">Output</Direction>
+					</Item>
+				</Dependencies>
+				<Definition Tr="50">
+					<ProcessType Tr="11">DataPorter</ProcessType>
+					<DataPorter Tr="71">
+						<Name Tr="2">Update Process Monitor</Name>
+						<Comment Tr="2"></Comment>
+						<Inputs Tr="72">
+							<list Tr="73">
+								<Item Tr="74">
+									<Name Tr="2">Update</Name>
+									<ProcType Tr="75">Port_Data</ProcType>
+									<Enabled Tr="14">True</Enabled>
+									<Precedence Tr="76">Previous_Step_Completed_OK</Precedence>
+									<Description Tr="2">Update</Description>
+									<SourceType Tr="77">Data_Source</SourceType>
+									<TargetUpgraded Tr="14">True</TargetUpgraded>
+									<Optimize Tr="14">True</Optimize>
+									<AutoTruncate Tr="14">True</AutoTruncate>
+									<TransferSystem Tr="78">Default</TransferSystem>
+									<SSISTrimDataForMaxColumns Tr="14">True</SSISTrimDataForMaxColumns>
+									<SourceFile />
+									<SourceConnection Tr="79">
+										<Type Tr="80">Server</Type>
+										<DL Tr="14">False</DL>
+									</SourceConnection>
+									<SourceFileProps />
+									<SourceDataSource Tr="81">
+										<Name Tr="2"></Name>
+										<Select Tr="82">
+											<Phrasebook Tr="83">
+												<Phrases Tr="84" />
+											</Phrasebook>
+											<Text Tr="2">Select 'Jenkins' source, 1 cnt, 'IN' Direction</Text>
+										</Select>
+										<DL Tr="14">False</DL>
+										<Object />
+									</SourceDataSource>
+									<TargetFtp />
+									<SourceMsg />
+									<SourceXml />
+									<Globals Tr="85">
+										<nv Tr="86">
+											<list Tr="87" />
+										</nv>
+										<fv Tr="88">
+											<list Tr="89" />
+										</fv>
+										<FileNameVariables Tr="90">
+											<list Tr="91" />
+										</FileNameVariables>
+										<RuleBuilderVariables Tr="92">
+											<list Tr="93" />
+										</RuleBuilderVariables>
+										<Global Tr="14">False</Global>
+									</Globals>
+									<Custom />
+									<Email />
+									<Plugin />
+									<XmlSchema />
+									<XmlMapping />
+									<XmlValidation />
+									<External />
+									<FileAction />
+									<Targets Tr="94">
+										<list Tr="95">
+											<Item Tr="96">
+												<Enabled Tr="14">True</Enabled>
+												<TargetType Tr="77">Data_Source</TargetType>
+												<MaxFailedRows Tr="27">0</MaxFailedRows>
+												<TargetFile />
+												<TargetConnection Tr="79">
+													<Type Tr="80">Server</Type>
+													<DL Tr="14">False</DL>
+												</TargetConnection>
+												<TargetFileProps />
+												<TargetDataSource Tr="97">
+													<Table Tr="98">
+														<Name Tr="2">T_PROCESS_MONITOR</Name>
+														<Owner Tr="2">dbo</Owner>
+														<SystemObject Tr="14">False</SystemObject>
+														<Type Tr="20">Table</Type>
+														<QuoteString Tr="2">"</QuoteString>
+													</Table>
+													<View />
+													<TargetType Tr="99">Table</TargetType>
+												</TargetDataSource>
+												<TargetMsg />
+												<TargetXml />
+												<ColMapping Tr="100">
+													<Mappings Tr="86">
+														<list Tr="87">
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[SOURCE]</Name>
+																<Value Tr="2">{DATA}.[source]</Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[DESCRIPTION]</Name>
+																<Value Tr="2">{DATA}.[source]</Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[DIRECTION]</Name>
+																<Value Tr="2">{DATA}.[Direction]</Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[RUN_DATE]</Name>
+																<Value Tr="2">{RUNTIME VARIABLE}.[Current Date]</Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[ENTITY]</Name>
+																<Value Tr="2"></Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[SOURCE_DATE]</Name>
+																<Value Tr="2">{RUNTIME VARIABLE}.[Current Date]</Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[ROW_COUNT]</Name>
+																<Value Tr="2">{DATA}.[cnt]</Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[EXPECTED_ROW_COUNT]</Name>
+																<Value Tr="2"></Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[PREVIOUS_ROW_COUNT]</Name>
+																<Value Tr="2"></Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[TOLERANCE]</Name>
+																<Value Tr="2"></Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[VARIANCE]</Name>
+																<Value Tr="2"></Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[STATUS]</Name>
+																<Value Tr="2"></Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[PROCESSED]</Name>
+																<Value Tr="2"></Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[CADIS_SYSTEM_INSERTED]</Name>
+																<Value Tr="2">{RUNTIME VARIABLE}.[Current Date]</Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[CADIS_SYSTEM_UPDATED]</Name>
+																<Value Tr="2">{RUNTIME VARIABLE}.[Current Date]</Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[CADIS_SYSTEM_CHANGEDBY]</Name>
+																<Value Tr="2">{RUNTIME VARIABLE}.[Current User]</Value>
+															</Item>
+															<Item Tr="101">
+																<Name Tr="2">{TABLE}.[CADIS_SYSTEM_PRIORITY]</Name>
+																<Value Tr="2">{DEFAULT}.[SQLDefault]</Value>
+															</Item>
+														</list>
+													</Mappings>
+												</ColMapping>
+												<UpdateControl Tr="102">
+													<Type Tr="103">Append</Type>
+													<Dedup Tr="14">False</Dedup>
+													<Allowable Tr="103">Overwrite, Append, Update</Allowable>
+													<PropText />
+												</UpdateControl>
+												<SourceXml />
+												<XmlMapping />
+											</Item>
+										</list>
+									</Targets>
+									<Bulkload />
+									<XsltFile />
+									<DeleteDataSource />
+									<DeleteDataCondition />
+								</Item>
+							</list>
+						</Inputs>
+						<configdefaults Tr="86">
+							<list Tr="87" />
+						</configdefaults>
+						<ProcessParams Tr="104">
+							<Connections Tr="105">
+								<list Tr="106" />
+							</Connections>
+							<Locations Tr="107">
+								<list Tr="108" />
+							</Locations>
+							<Variables Tr="85">
+								<nv Tr="86">
+									<list Tr="87" />
+								</nv>
+								<fv Tr="88">
+									<list Tr="89" />
+								</fv>
+								<FileNameVariables Tr="90">
+									<list Tr="91" />
+								</FileNameVariables>
+								<RuleBuilderVariables Tr="92">
+									<list Tr="93" />
+								</RuleBuilderVariables>
+								<Global Tr="14">True</Global>
+							</Variables>
+						</ProcessParams>
+					</DataPorter>
+				</Definition>
+			</value>
+		</Item>
+	</ProcessDefinitions>
+	<OrderedConsoleGroupPaths Tr="6" />
+</Content>
+</CadisXml>
